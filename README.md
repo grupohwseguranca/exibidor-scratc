@@ -1,1 +1,1 @@
-# exibidor-scratch
+# exibidor-scratc
