@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos Scratch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Exibidor de Projetos Scratch</h1>
+    </header>
+    <main>
+        <section id="add-project-section">
+            <h2>Adicionar Projeto</h2>
+            <form id="add-project-form">
+                <input type="text" id="project-id" placeholder="ID do Projeto" required>
+                <input type="text" id="project-title" placeholder="Título" required>
+                <input type="text" id="project-description" placeholder="Descrição" required>
+                <input type="text" id="project-embed" placeholder="URL do Embed do Scratch" required>
+                <button type="submit">Adicionar</button>
+            </form>
+        </section>
+        <hr>
+        <div id="projects-container"></div>
+    </main>
+    <footer>
+        <p>Feito com ❤️ para mostrar projetos do Scratch</p>
+    </footer>
+    <script src="projects.js"></script>
+</body>
+</html>
